@@ -1,7 +1,7 @@
 from bokeh.themes import theme
 from numpy.core.records import record
-import pandas as pd
-import numpy as np
+# import pandas as pd
+# import numpy as np
 import cv2
 import mediapipe as mp
 import time
