@@ -1,13 +1,13 @@
-from bokeh.themes import theme
-from numpy.core.records import record
+# from bokeh.themes import theme
+# from numpy.core.records import record
 # import pandas as pd
 # import numpy as np
 import cv2
 import mediapipe as mp
 import time
-from PIL import Image
+# from PIL import Image
 import tempfile
-from bokeh.models.widgets import Div
+# from bokeh.models.widgets import Div
 import streamlit as st
 # ---------------------------------------------------------------------
 st.set_page_config(
@@ -223,8 +223,8 @@ if app_mode == 'Run On Video':
             prevTime = currTime
             fingers=[]
             
-            if record:
-                out.write(image)
+            # if record:
+            #     out.write(image)
             image= cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
             kpi1_text.write(f"<h1 style='text-align: center; color:red; '>{int(fps)}</h1>", unsafe_allow_html=True)
             kpi2_text.write(f"<h1 style='text-align: center; color:red; '>{hand_count}</h1>", unsafe_allow_html=True)
