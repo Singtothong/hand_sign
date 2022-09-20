@@ -19,7 +19,6 @@ st.set_page_config(
 
 # ---------------------------------------------------------------------
 
-DEMO_IMAGE = 'demo.jpg'
 DEMO_VIDEO = 'test3.mp4'
 prevTime=0
 currTime=0 
