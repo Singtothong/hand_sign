@@ -9,7 +9,6 @@ import time
 import tempfile
 # from bokeh.models.widgets import Div
 import streamlit as st
-import os
 # ---------------------------------------------------------------------
 st.set_page_config(
     page_title="Sign Language Recognition",
@@ -233,4 +232,3 @@ if app_mode == 'Run On Video':
                     
                 kpi3_text.write(f"<h1 style='text-align: center; color:red; '>{symptom}</h1>", unsafe_allow_html=True)
             vid.release()
-            cv2.destroyAllWindows()
